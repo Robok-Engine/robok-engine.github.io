@@ -55,7 +55,7 @@ export function Sidebar() {
                                 </div>
 
                                 <Link
-                                    href="#"
+                                    href="/app/index.tsx"
                                     className="flex items-center gap-4 px-2.5 
                                     text-muted-foreground hover:text-foreground"
                                     prefetch={false} >
@@ -64,7 +64,7 @@ export function Sidebar() {
                                 </Link>
 
                                 <Link
-                                    href="#"
+                                    href="/versions"
                                     className="flex items-center gap-4 px-2.5
                                      text-muted-foreground hover:text-foreground"
                                     prefetch={false} >
