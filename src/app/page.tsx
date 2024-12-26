@@ -52,7 +52,7 @@ export default function Home() {
 
             <div className="flex items-center justify-center">
               <img
-                src="/img/app-robok.png"
+                src="/img/app-robok-black.png"
                 alt="App robok"
                 className="mt-4 w-2/5 h-auto max-sm:w-3/4  max-md:w-3/4 select-none"
               />
