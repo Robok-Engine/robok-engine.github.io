@@ -1,0 +1,83 @@
+html {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+html:root {
+  --mdui-color-primary: 255 255 255;
+  --mdui-color-surface-tint: 198 198 199;
+  --mdui-color-on-primary: 47 49 49;
+  --mdui-color-primary-container: 212 212 212;
+  --mdui-color-on-primary-container: 62 64 64;
+  --mdui-color-secondary: 200 198 198;
+  --mdui-color-on-secondary: 48 48 48;
+  --mdui-color-secondary-container: 63 63 63;
+  --mdui-color-on-secondary-container: 213 212 211;
+  --mdui-color-tertiary: 255 255 255;
+  --mdui-color-on-tertiary: 47 49 49;
+  --mdui-color-tertiary-container: 212 212 212;
+  --mdui-color-on-tertiary-container: 62 64 64;
+  --mdui-color-error: 255 180 171;
+  --mdui-color-on-error: 105 0 5;
+  --mdui-color-error-container: 147 0 10;
+  --mdui-color-on-error-container: 255 218 214;
+  --mdui-color-background: 20 19 19;
+  --mdui-color-on-background: 229 226 225;
+  --mdui-color-surface: 20 19 19;
+  --mdui-color-on-surface: 229 226 225;
+  --mdui-color-surface-variant: 68 71 72;
+  --mdui-color-on-surface-variant: 196 199 200;
+  --mdui-color-outline: 142 145 146;
+  --mdui-color-outline-variant: 68 71 72;
+  --mdui-color-shadow: 0 0 0;
+  --mdui-color-scrim: 0 0 0;
+  --mdui-color-inverse-surface: 229 226 225;
+  --mdui-color-inverse-on-surface: 49 48 48;
+  --mdui-color-inverse-primary: 93 95 95;
+  --mdui-color-primary-fixed: 226 226 226;
+  --mdui-color-on-primary-fixed: 26 28 28;
+  --mdui-color-primary-fixed-dim: 198 198 199;
+  --mdui-color-on-primary-fixed-variant: 69 71 71;
+  --mdui-color-secondary-fixed: 228 226 226;
+  --mdui-color-on-secondary-fixed: 27 28 28;
+  --mdui-color-secondary-fixed-dim: 200 198 198;
+  --mdui-color-on-secondary-fixed-variant: 71 71 71;
+  --mdui-color-tertiary-fixed: 226 226 226;
+  --mdui-color-on-tertiary-fixed: 26 28 28;
+  --mdui-color-tertiary-fixed-dim: 198 198 199;
+  --mdui-color-on-tertiary-fixed-variant: 69 71 71;
+  --mdui-color-surface-dim: 20 19 19;
+  --mdui-color-surface-bright: 58 57 57;
+  --mdui-color-surface-container-lowest: 14 14 14;
+  --mdui-color-surface-container-low: 28 27 27;
+  --mdui-color-surface-container: 32 31 31;
+  --mdui-color-surface-container-high: 42 42 42;
+  --mdui-color-surface-container-highest: 53 52 52;
+}
+
+.Content {
+  padding: 20px;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.txt {
+  border-right: .1em solid white;
+  width: 0.5em;
+  width: 19.4ch;
+  margin: 0em 1em;
+  margin-left: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 2s steps(21, end),
+    blink-caret .5s step-end infinite alternate;
+}
